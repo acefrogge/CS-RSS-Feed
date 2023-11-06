@@ -4,6 +4,8 @@ This repository provides a collection of RSS feeds for news and updates on the [
 News and Release Notes are being sent to my Discord Server [CS: Femboy](discord.gg/Z22Mjsf7RG).
 You can also follow the announcement channel #cs2-updates to receive all the latest News and Release Notes in your own server.
 
+![image](https://github.com/acefrogge/CS-RSS-Feed/assets/123892168/d3044430-fdfb-47fa-8606-828038592fd9)
+
 Using [Github Workflows](https://docs.github.com/en/actions/using-workflows), the website is checked for new entries every 5-15 minutes. The RSS feeds are only updated when there are actually new entries to reduce repository noise.  
 
 Updating the updates feed requires only one request to the website.  

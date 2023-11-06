@@ -3,7 +3,7 @@
 # Counter-Strike RSS-Feed Repository
 This repository provides a collection of RSS feeds for news and updates on the [new Counter-Strike website](https://counter-strike.net), which is updated several times a day as the new website unfortunately lacks this feature.  
 
-Using [Github Workflows](https://docs.github.com/en/actions/using-workflows), the website is checked for new entries every 4 hours. The RSS feeds are only updated when there are actually new entries to reduce repository noise.  
+Using [Github Workflows](https://docs.github.com/en/actions/using-workflows), the website is checked for new entries every ~5 minutes. The RSS feeds are only updated when there are actually new entries to reduce repository noise.  
 
 Updating the updates feed requires only one request to the website.  
 Updating the news feed requires 16 requests to the website.  

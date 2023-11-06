@@ -1,7 +1,8 @@
-[![Generate RSS feeds for CS2 news](https://github.com/acefrogge/CS2-RSS-Feed/actions/workflows/generate-news-feed.yaml/badge.svg)](https://github.com/acefrogge/CS2-RSS-Feed/actions/workflows/generate-news-feed.yaml) [![Generate RSS feeds for CS2 updates](https://github.com/acefrogge/CS2-RSS-Feed/actions/workflows/generate-updates-feed.yaml/badge.svg)](https://github.com/acefrogge/CS2-RSS-Feed/actions/workflows/generate-updates-feed.yaml)
-
 # Counter-Strike RSS-Feed Repository
-This repository provides a collection of RSS feeds for news and updates on the [new Counter-Strike website](https://counter-strike.net), which is updated several times a day as the new website unfortunately lacks this feature.  
+This repository provides a collection of RSS feeds for news and updates on the [new Counter-Strike website](https://counter-strike.net), which is updated regularly as the new website unfortunately lacks this feature.  
+
+News and Release Notes are being sent to my Discord Server [CS: Femboy](discord.gg/Z22Mjsf7RG).
+You can also follow the announcement channel #cs2-updates to receive all the latest News and Release Notes in your own server.
 
 Using [Github Workflows](https://docs.github.com/en/actions/using-workflows), the website is checked for new entries every 5-15 minutes. The RSS feeds are only updated when there are actually new entries to reduce repository noise.  
 

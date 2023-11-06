@@ -19,7 +19,6 @@ content_url = base_url + '/news'
 # Define a list of languages to fetch and parse
 language_map = {
     'english': ('en', 'en_US'),
-    'german': ('de', 'de_DE')
 }
 
 # Set up a Chrome WebDriver in headless mode
@@ -132,7 +131,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
     # Generate the RSS feed with feedgen if the latest entry is different from the current RSS feed
     if not skip_file:
-        feed_link = f'https://raw.githubusercontent.com/IceQ1337/CS-RSS-Feed/master/feeds/news-feed-{language_code}.xml'
+        feed_link = f'https://raw.githubusercontent.com/acefrogge/csfemboy/main/feeds/news-feed-{language_code}.xml'
 
         fg = FeedGenerator()
         fg.title(f'Counter-Strike 2 - News ({language_name.capitalize()})')

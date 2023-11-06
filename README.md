@@ -1,4 +1,4 @@
-[![Generate RSS feeds for CS2 news](https://github.com/IceQ1337/CS2-RSS-Feed/actions/workflows/generate-news-feed.yaml/badge.svg)](https://github.com/IceQ1337/CS2-RSS-Feed/actions/workflows/generate-news-feed.yaml) [![Generate RSS feeds for CS2 updates](https://github.com/IceQ1337/CS2-RSS-Feed/actions/workflows/generate-updates-feed.yaml/badge.svg)](https://github.com/IceQ1337/CS2-RSS-Feed/actions/workflows/generate-updates-feed.yaml)
+[![Generate RSS feeds for CS2 news](https://github.com/acefrogge/CS2-RSS-Feed/actions/workflows/generate-news-feed.yaml/badge.svg)](https://github.com/acefrogge/CS2-RSS-Feed/actions/workflows/generate-news-feed.yaml) [![Generate RSS feeds for CS2 updates](https://github.com/acefrogge/CS2-RSS-Feed/actions/workflows/generate-updates-feed.yaml/badge.svg)](https://github.com/acefrogge/CS2-RSS-Feed/actions/workflows/generate-updates-feed.yaml)
 
 # Counter-Strike RSS-Feed Repository
 This repository provides a collection of RSS feeds for news and updates on the [new Counter-Strike website](https://counter-strike.net), which is updated several times a day as the new website unfortunately lacks this feature.  
@@ -9,23 +9,14 @@ Updating the updates feed requires only one request to the website.
 Updating the news feed requires 16 requests to the website.  
 
 ## Available RSS-Feeds
-### News
--  [English](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/news-feed-en.xml)
-
-### Updates
--  [English](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/updates-feed-en.xml)
+### [News](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/news-feed-en.xml)
+### [Updates](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/updates-feed-en.xml)
 
 **Notes:**
 - Valve does not localize all of their blog/update posts immediately.
   - Translations are partly driven by the community and may be available at a later date.
 - Time information on the website is generally not localized.
   - When running the python scripts locally, you may have issues parsing dates.
-
-## Contribution Guidelines
-There are currently no contributing guidelines, but I am open to any kind of improvements.  
-In order to contribute to the project, please follow the GitHub Standard Fork & Pull Request Workflow  
-
-**Note:** Do not make direct changes to *.xml files in the feeds directory.
 
 ## Acknowledgements
 - [Selenium](https://github.com/SeleniumHQ/selenium)

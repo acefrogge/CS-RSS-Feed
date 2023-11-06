@@ -12,8 +12,7 @@ Updating the updates feed requires only one request to the website.
 Updating the news feed requires 16 requests to the website.  
 
 ## Available RSS-Feeds
-### [News](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/news-feed-en.xml)
-### [Updates](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/updates-feed-en.xml)
+### [News](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/news-feed-en.xml) & [Updates](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/updates-feed-en.xml)
 
 **Notes:**
 - Valve does not localize all of their blog/update posts immediately.

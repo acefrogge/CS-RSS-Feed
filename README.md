@@ -10,12 +10,10 @@ Updating the news feed requires 16 requests to the website.
 
 ## Available RSS-Feeds
 ### News
--  [English](https://raw.githubusercontent.com/IceQ1337/CS-RSS-Feed/master/feeds/news-feed-en.xml)
--  [German](https://raw.githubusercontent.com/IceQ1337/CS-RSS-Feed/master/feeds/news-feed-de.xml)
+-  [English](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/news-feed-en.xml)
 
 ### Updates
--  [English](https://raw.githubusercontent.com/IceQ1337/CS-RSS-Feed/master/feeds/updates-feed-en.xml)
--  [German](https://raw.githubusercontent.com/IceQ1337/CS-RSS-Feed/master/feeds/updates-feed-de.xml)
+-  [English](https://raw.githubusercontent.com/acefrogge/CS-RSS-Feed/master/feeds/updates-feed-en.xml)
 
 **Notes:**
 - Valve does not localize all of their blog/update posts immediately.

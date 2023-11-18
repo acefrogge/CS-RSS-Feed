@@ -153,7 +153,7 @@ for language_name, (language_code, language_locale) in language_map.items():
                 'hreflang': language_code,
                 'title': news['title']
             })
-            fe.pubDate(datetime.strftime(news['date'], '%Y-%m-%dT%H:%M:%SZ'))
+            fe.pubDate(datetime.datetime.now().strftime(news['date'], '%Y-%m-%dT%H:%M:%SZ'))
             fe.author({'name':'Valve Corporation', 'email':'support@steampowered.com'})
             fe.content(news['content'], None, 'CDATA')
             fe.rights('Valve Corporation')

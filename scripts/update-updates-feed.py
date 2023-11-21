@@ -64,7 +64,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
     # Set locale to parse the date, but dates are currently not localized anyways (Thanks Valve)
     locale.setlocale(locale.LC_TIME, f'en_US.UTF-8') # Switch to language_locale after it's fixed (if ever)
-    date_format = '%B %d, %Y' # English
+    date_format = '%B %d, %Y %H:%M:%S' # English
     
     #locale.setlocale(locale.LC_TIME, 'de_DE') # German
     #date_format = '%d. %B %Y' # German
@@ -73,20 +73,12 @@ for language_name, (language_code, language_locale) in language_map.items():
     for capsule in capsule_divs:
         title = capsule.select_one('div[class*="updatecapsule_Title"]').text.strip()
         date_str = capsule.select_one('div[class*="updatecapsule_Date"]').text.strip()
-
-        # Adding default time (midnight)
-        date_str_with_time = f"{date_str} 00:00:00"
-
-        try:
-            date = datetime.strptime(date_str_with_time, '%B %d, %Y %H:%M:%S')
-        except ValueError:
-            try:
-                # Attempt to parse without time
-                date = datetime.strptime(date_str, '%d %B %Y')
-            except ValueError as e:
-                sys.exit(f'Failed to parse date: {date_str} - Error: {e}')
-
         desc = capsule.select_one('div[class*="updatecapsule_Desc"]').decode_contents().strip()
+
+        default_time = '00:00:00'
+        date_parts = date_str.split(' ')
+        date_format = '%B %d, %Y %H:%M:%S'
+        date = datetime.strptime(date_str, date_format)
 
         # Remove trailing <br/> tags at the beginning of the update description (Thanks Valve)
         while desc.startswith('<br'):

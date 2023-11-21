@@ -10,14 +10,6 @@
     <language>en</language>
     <lastBuildDate>Tue, 21 Nov 2023 12:02:48 +0000</lastBuildDate>
     <item>
-      <title>Release Notes for 11/20/2023</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[[ MISC ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I">Fixed silencer attach and detach animations<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed a bug that prevented refunding the Bizon<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed a bug where players could respawn into a bad state during reconnect<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed a bug where ramps were not correctly reducing fall damage<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed a case where sub-tick movement timestamps were temporarily incorrect after changing host_timescale<br/></li><li class="bbcodes_ListItem_1BF9I">Various fixes and improvements to de_ancient<br/></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">80af69dfc9f620664d3fd57c9d236061d3ba46d7f72aace89f2865ca87021b7d</guid>
-      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Release Notes for 11/17/2023</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
       <description><![CDATA[<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I">Fixed a few minor sub-tick input bugs<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed a bug with first person animation in bot takeover<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed a bug where dropped/thrown weapons had too much velocity<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed a case where players could push their view through low ceilings<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed an exploit that would allow players to teleport<br/></li><li class="bbcodes_ListItem_1BF9I">de_overpass: Various tweaks and bug fixes<br/></li><li class="bbcodes_ListItem_1BF9I">de_anubis: Fixed potential pixel gap exploit at A-site and plugged hole near t-spawn where bomb could be thrown out of world<br/></li></ul>]]></description>

@@ -72,7 +72,20 @@ for language_name, (language_code, language_locale) in language_map.items():
     # For each update capsule, find all div containers with relevant information
     for capsule in capsule_divs:
         title = capsule.select_one('div[class*="updatecapsule_Title"]').text.strip()
-        date = datetime.strptime(capsule.select_one('div[class*="updatecapsule_Date"]').text.strip(), date_format)
+        date_str = capsule.select_one('div[class*="updatecapsule_Date"]').text.strip()
+
+        # Adding default time (midnight)
+        date_str_with_time = f"{date_str} 00:00:00"
+
+        try:
+            date = datetime.strptime(date_str_with_time, '%B %d, %Y %H:%M:%S')
+        except ValueError:
+            try:
+                # Attempt to parse without time
+                date = datetime.strptime(date_str, '%d %B %Y')
+            except ValueError as e:
+                sys.exit(f'Failed to parse date: {date_str} - Error: {e}')
+
         desc = capsule.select_one('div[class*="updatecapsule_Desc"]').decode_contents().strip()
 
         # Remove trailing <br/> tags at the beginning of the update description (Thanks Valve)

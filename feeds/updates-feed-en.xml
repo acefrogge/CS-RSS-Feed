@@ -15,7 +15,7 @@
       <description><![CDATA[[ MISC ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Increased jump tolerance for sliding along a surface to fix certain jumps like in the corner outside in cs_office.<br/></li><li class="bbcodes_ListItem_1BF9I"> Fixed a crash in page file usage when Vulkan initialization fails and the game falls back to DX11.<br/></li></ul><br/>]]></description>
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">f4c9b63c422ee5314891673c63a622e678911618f506ee77cc597b926d4575a9</guid>
-      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Oct 2024 23:26:36 +0000</pubDate>
     </item>
     <item>
       <title>Release Notes for 10/29/2024</title>

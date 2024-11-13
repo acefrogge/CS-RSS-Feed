@@ -98,8 +98,12 @@ for language_name, (language_code, language_locale) in language_map.items():
     skip_file = False
 
     if os.path.exists(rss_feed_file):
-        current_feed = feedparser.parse(rss_feed_file)
-        if current_feed.entries and updates and current_feed.entries[0].title == updates[0]['title']:
+    current_feed = feedparser.parse(rss_feed_file)
+    if current_feed.entries and updates:
+        latest_feed_entry_hash = hashlib.sha256(f"{current_feed.entries[0].title}{current_feed.entries[0].description}".encode()).hexdigest()
+        latest_update_hash = hashlib.sha256(f"{updates[0]['title']}{updates[0]['content']}".encode()).hexdigest()
+
+        if latest_feed_entry_hash == latest_update_hash:
             skip_file = True
 
     # Generate the RSS feed with feedgen if the latest entry is different from the current RSS feed

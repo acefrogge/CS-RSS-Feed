@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Dec 2024 21:10:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2024 21:26:51 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[[ SHANGHAI MAJOR ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Updated MIBR player sticker items autographed by Lucaozy with the autographs of brnz4n.<br/></li><li class="bbcodes_ListItem_1BF9I"> Fixed a UI bug that allowed dropping Pick'Em team logos outside of Major Pick'Em hub using both mouse buttons.<br/></li><li class="bbcodes_ListItem_1BF9I"> Pick'Em challenge picks can now be placed for the upcoming Elimination Stage of Shanghai Major.<br/></li></ul><br/><br/>[ DAMAGE PREDICTION ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Predicted ragdolls without a confirmation or correction from the server within a short time window will now revert.<br/></li></ul><br/><br/>[ MAPS ]<br/><ul class="bbcodes_List_20uQh"><br/><li class="bbcodes_ListItem_1BF9I"> Train<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Increased collision fidelity of several models<br/></li></ul><br/><br/></li><li class="bbcodes_ListItem_1BF9I"> Overpass<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Replaced railing inside Heaven with a wall<br/>Additional visibility improvements in Heaven<br/></li></ul><br/><br/></li><li class="bbcodes_ListItem_1BF9I"> Edin<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Updated to the latest version from the Community Workshop (<a class="Focusable" href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3328169568?snr=" tabindex="0"><span data-tooltip-text="steamcommunity.com">Update Notes</span></a>)<br/></li></ul><br/><br/></li><li class="bbcodes_ListItem_1BF9I"> Palais<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Updated to the latest version from the Community Workshop (<a class="Focusable" href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3257582863?snr=" tabindex="0"><span data-tooltip-text="steamcommunity.com">Update Notes</span></a>)<br/></li></ul><br/></li></ul><br/>[ MISC ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Fixed 'boost player contrast' visibility rendering option sometimes revealing parts of players or weapons through thin surfaces.<br/></li><li class="bbcodes_ListItem_1BF9I"> Added r_allow_low_gpu_memory_mode setting to allow running CS2 Workshop Tools in low memory GPU conditions.<br/></li><li class="bbcodes_ListItem_1BF9I"> Fixed various bugs in Hammer.<br/></li></ul><br/>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">2deba4f5c116129e93f992feab7d85edbc8e7a8d56e2d264f1618e6f0a9d1e6f</guid>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -117,14 +125,6 @@
       <title>Release Notes for 10/9/2024</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
       <description><![CDATA[[ MISC ]<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Performance optimizations in hierarchies of unchanged entities.<br/></li><li class="bbcodes_ListItem_1BF9I"> Various stability improvements.<br/></li></ul><br/><br/>[ MAPS ]<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Mirage<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Fixed disappearing geometry in apartments.<br/></li></ul><br/></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">d0e79785ec2e86d61828bc617c71a5c2bbdb07749ad43a0283f460f3cdb7732b</guid>
-      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Release Notes for 10/8/2024</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[[ GRAPHICS ]<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Fixed certain particle effects, like tracers, to fall back to mixed resolution for better performance when using low graphics settings with MSAA disabled.<br/></li><li class="bbcodes_ListItem_1BF9I"> Improved lighting artifacts in various interior places when compiling maps.<br/></li></ul><br/><br/>[ MISC ]<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Teammate colors will now be assigned on official servers as soon as all players press ACCEPT. This will ensure that colors are correct during Pick/Ban phase, and during Warmup.<br/></li><li class="bbcodes_ListItem_1BF9I"> Improvements in Charms reactivity physics system to better align with weapon animations.<br/></li></ul>]]></description>
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">d0e79785ec2e86d61828bc617c71a5c2bbdb07749ad43a0283f460f3cdb7732b</guid>
       <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>

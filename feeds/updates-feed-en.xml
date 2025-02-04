@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Feb 2025 23:57:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 01:11:19 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[[ MISC ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I">Fixed AUG scope stencil filter bug near water surfaces.<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed Premier progress bar not displaying properly in low resolutions.<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed certain UI panels not rendering transparently when using CMAA2 and HDR performance settings simultaneously.<br/></li><li class="bbcodes_ListItem_1BF9I">Improved dynamic radar scale to snap size when a newly discovered enemy/C4 enters radar view, but still shrink gradually when enemy/C4 disappears and enough time passes.<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed radar scale settings UI to support full range of radar scale from 0.25 to 1.0 values.<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed sounds from Train inspect scenery not getting cleared when going back to the main menu.<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed misprediction error smoothing near walls to avoid clipping through walls.<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed cloth simulation bug on loopback=1 local servers.</li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">15f50288f95d3ec78631cb24ed50569f1c12b6b26ea0e8b5bf1b5524a96790ee</guid>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">0a12c85d6a7213a19d0185f2de117afbf9e16e50abf92ab9cddbfda17fba2033</guid>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[[ MAP GUIDES ]<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Fixed a bug where missing text for a user's language wouldn't fall back to English<br/></li></ul><br/>[ MAPS ]<br/><br/>Train<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Fixed various collision issues including a higher fidelity for the orange train on B site<br/></li><li class="bbcodes_ListItem_1BF9I"> Minor fixes on textures stretching<br/></li><li class="bbcodes_ListItem_1BF9I"> Fixed various gaps in map<br/></li><li class="bbcodes_ListItem_1BF9I"> Disabled player collision on radio<br/></li><li class="bbcodes_ListItem_1BF9I"> Updated radio sound<br/></li><li class="bbcodes_ListItem_1BF9I"> Added vphysics clip to platform gap in T spawn for clumsy players<br/></li><li class="bbcodes_ListItem_1BF9I"> Players can now get on top of cratestack outside of longdog<br/></li></ul><br/>Overpass<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Fixed lighting bug on Bombsite B<br/></li><li class="bbcodes_ListItem_1BF9I"> Fixed footstep sound bug on mud surfaces<br/></li></ul><br/>Basalt<ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Updated to the latest version from the Community Workshop (<a class="Focusable" href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3329258290?snr=" tabindex="0"><span data-tooltip-text="steamcommunity.com">Update Notes</span></a>)<br/></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">c18e58abf261f3d1a76a722b67aff2e482d5ec3ab72b520a375b82a8339feb8e</guid>
-      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 May 2025 22:54:31 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 23:08:04 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[[ MAPS ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Fixed a bug where searching for Defusal Group Alpha would lead to Anubis and Defusal Group Delta would lead to Vertigo.<br/></li></ul><br/>Jura:<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Updated to the latest version from the Community Workshop (<a class="Focusable" href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3261289969?snr=" tabindex="0"><span data-tooltip-text="steamcommunity.com">Update Notes</span></a>).<br/></li></ul><br/>Grail:<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Updated to the latest version from the Community Workshop (<a class="Focusable" href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3246527710?snr=" tabindex="0"><span data-tooltip-text="steamcommunity.com">Update Notes</span></a>).<br/></li></ul><br/>Brewery:<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Updated to the latest version from the Community Workshop (<a class="Focusable" href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3070290240?snr=" tabindex="0"><span data-tooltip-text="steamcommunity.com">Update Notes</span></a>).<br/></li></ul><br/>Dogtown:<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Updated to the latest version from the Community Workshop (<a class="Focusable" href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3414036782?snr=" tabindex="0"><span data-tooltip-text="steamcommunity.com">Update Notes</span></a>).<br/></li></ul><br/>[ AUDIO ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Remastered various UI sounds.<br/></li></ul><br/>[ MISC ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I"> Various crash fixes and stability improvements.<br/></li><li class="bbcodes_ListItem_1BF9I"> Various fixes for running on Linux with SDL_VIDEODRIVER=wayland.<br/></li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">5422cc39a9db7ab85bf666b2d71c29ad2104f58e17acb2bbebc4e8ad07902c8c</guid>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">f5db3a45552423249e72f0eac43a51d2bbb57f2af9825d5721c4859f6db13c49</guid>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[[ MAPS ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I">Train<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I">Fixed various minor visual bugs and gaps in world<br/></li><li class="bbcodes_ListItem_1BF9I">Added dirt and wetness onto crates and tarps where appropriate<br/></li><li class="bbcodes_ListItem_1BF9I">Widened opening on A site between Hell and Tunnels<br/></li><li class="bbcodes_ListItem_1BF9I">Opened container door on back of the train near Ivy/Tunnels<br/></li><li class="bbcodes_ListItem_1BF9I">Added dumpster by Ivy<br/></li><li class="bbcodes_ListItem_1BF9I">Added barrels in A site cubby<br/></li><li class="bbcodes_ListItem_1BF9I">Pushed back T spawns a little<br/></li></ul><br/></li></ul>[ MISC ]<br/><ul class="bbcodes_List_20uQh"><li class="bbcodes_ListItem_1BF9I">Fixed a case where ragdolls could get created with extreme initial velocities<br/></li><li class="bbcodes_ListItem_1BF9I">Added markup for individual matches in Steam Game Recording timeline<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed a regression where deploying weapons weren't allowing immediate inspecting<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed fingers crossing into butterfly knife geometry during inspect animation<br/></li><li class="bbcodes_ListItem_1BF9I">Fixed weekly care package preview of weapon cases not having a close button<br/></li><li class="bbcodes_ListItem_1BF9I">When moving away from annotation nodes, required grenade is no longer removed</li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">0740f95feed1b45edfedbed5e12bef0b75437476837a1bb88b68465e45e1a385</guid>
-      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

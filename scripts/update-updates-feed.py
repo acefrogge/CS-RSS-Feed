@@ -64,7 +64,9 @@ for language_name, (language_code, language_locale) in language_map.items():
 
     # Set locale to parse the date, but dates are currently not localized anyways (Thanks Valve)
     locale.setlocale(locale.LC_TIME, f'en_US.UTF-8') # Switch to language_locale after it's fixed (if ever)
-    date_format = '%d %B %Y' # English
+    date_format = '%B %d, %Y' # English
+    #locale.setlocale(locale.LC_TIME, 'de_DE') # German
+    #date_format = '%d. %B %Y' # German
 
     # For each update capsule, find all div containers with relevant information
     for capsule in capsule_divs:

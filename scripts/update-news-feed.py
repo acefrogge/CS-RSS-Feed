@@ -40,7 +40,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
         # Wait for the contents to appear (thanks Valve for using reactJS)
         element = WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="_3hyKAfTPsSQAD3OC_dbWCb"]'))
+            EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div/div[3]/div[2]/div[1]'))
         )
 
         # Extract the (hopefully) complete HTML
@@ -57,7 +57,15 @@ for language_name, (language_code, language_locale) in language_map.items():
     soup = BeautifulSoup(html_content, 'html.parser')
 
     # Find all containers with class names that contain "blogcapsule_BlogCapsule"
-    capsules = soup.select('a[class*="_3OBoG7TZb8gxM8NbILzAan"]')
+    capsule_urls = []
+    for i in range(1, 16):
+        try:
+            capsule = driver.find_element(By.XPATH, f'/html/body/div[2]/div/div/div[3]/div[2]/div[1]/a[{i}]')
+            href = capsule.get_attribute('href')
+            if href:
+                capsule_urls.append(href)
+        except:
+            break
 
     # Create an array of all news entries
     news_items = []
@@ -69,10 +77,13 @@ for language_name, (language_code, language_locale) in language_map.items():
     #date_format = '%d. %B %Y' # German
 
     # For each news capsule, open the entry and find all div containers with relevant information
-    for capsule in capsules:
-        unique_relative_url = capsule.get('href')
-        unique_url = f'{base_url}{unique_relative_url}?l={language_name}'
-        unique_identifier = unique_relative_url.replace('/newsentry/', '')
+    for unique_relative_url in capsule_urls:
+        if unique_relative_url.startswith("http"):
+            unique_url = f"{unique_relative_url}?l={language_name}"
+        else:
+            unique_url = f"{base_url}{unique_relative_url}?l={language_name}"
+
+        unique_identifier = unique_relative_url.split('/')[-1]
 
         # Navigate the browser to the news entry
         try:
@@ -80,7 +91,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
             # Wait for the contents to appear
             element = WebDriverWait(driver, 15).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="_3PVZqELwggVvMhoK3lRGwk"]'))
+                EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div'))
             )
 
             # Extract the (hopefully) complete HTML
@@ -92,25 +103,38 @@ for language_name, (language_code, language_locale) in language_map.items():
             driver.quit()
             sys.exit(f'Failed to extract the HTML data of a news entry.')
 
-        # Parse the HTML content with BeautifulSoup and extract all relevant information
-        news_soup = BeautifulSoup(news_html_content, 'html.parser')
-        news_page = news_soup.select_one('div[class*="_3PVZqELwggVvMhoK3lRGwk"]')
+        # Wait for the news entry elements to appear
+        title_elem = WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div/div[3]'))
+        )
+        date_elem = WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div/div[4]'))
+        )
+        desc_elem = WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div/div[5]'))
+        )
 
-        title = news_page.select_one('div[class*="_2HW6u-IlsL50KUqJyif8Ls"]').text.strip()
-        date = datetime.strptime(news_page.select_one('div[class*="_2JNhX05chbmg2pDcad3NuT"]').text.strip(), date_format)
-        body = news_page.select_one('div[class*="_30GVvAUcc-I1luXxmzjBYK"]').decode_contents().strip()
+        title = title_elem.text.strip()
+        date_text = date_elem.text.strip()
+        date = datetime.strptime(date_text, date_format)
+        desc = desc_elem.get_attribute('innerHTML').strip()
 
         # Remove trailing <br/> tags at the beginning of the news article
-        while body.startswith('<br'):
+        while desc.startswith('<br'):
             index = desc.index('>') + 1
             desc = desc[index:]
+
+        # Replace all <wbr> with <br>
+        desc = desc.replace('<wbr>', '<br>')
+        # Replace all nbsp's
+        desc = desc.replace('&nbsp;', ' ')
 
         news_items.append({
             'guid': unique_identifier,
             'url': unique_url,
             'title': title,
             'date': date,
-            'content': body
+            'content': desc
         })
 
     # Parse an existing RSS feed file and compare the last entry

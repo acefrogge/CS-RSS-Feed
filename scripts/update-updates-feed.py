@@ -70,7 +70,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
     # Set locale to parse the date, but dates are currently not localized anyways (Thanks Valve)
     locale.setlocale(locale.LC_TIME, f'en_US.UTF-8') # Switch to language_locale after it's fixed (if ever)
-    date_format = '%d %B %Y' # English
+    date_format = '%B %d, %Y' # English
     
     #locale.setlocale(locale.LC_TIME, 'de_DE') # German
     #date_format = '%d. %B %Y' # German
@@ -82,13 +82,13 @@ for language_name, (language_code, language_locale) in language_map.items():
         title = capsule.find_element(By.XPATH, './div[2]').text.strip()
         desc = capsule.find_element(By.XPATH, './div[3]').get_attribute('innerHTML').strip()
 
-        # Replace all <wbr> with <br>
-        desc = desc.replace('<wbr>', '<br>')
-
         # Remove trailing <br/> tags at the beginning of the update description (Thanks Valve)
         while desc.startswith('<br'):
             index = desc.index('>') + 1
             desc = desc[index:]
+
+        # Replace all <wbr> with <br>
+        desc = desc.replace('<wbr>', '<br>')
 
         updates.append({
             'guid': hashlib.sha256(f'{date.day}{date.month}{date.year}'.encode()).hexdigest(),

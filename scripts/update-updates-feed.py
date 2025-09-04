@@ -41,7 +41,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
         # Wait for the contents to appear (thanks Valve for using reactJS)
         element = WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="blogoverviewpage_SubUpdates"]'))
+            EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="-EouvmnKRMabN5fJonx-O"]'))
         )
 
         # Extract the (hopefully) complete HTML
@@ -57,23 +57,21 @@ for language_name, (language_code, language_locale) in language_map.items():
     soup = BeautifulSoup(html_content, 'html.parser')
 
     # Find all div containers with class names that contain "updatecapsule_UpdateCapsule"
-    capsule_divs = soup.select('div[class*="updatecapsule_UpdateCapsule"]')
+    capsule_divs = soup.select('div[class^="-EouvmnKRMabN5fJonx-O"]')
 
     # Create an array of all update items
     updates = []
 
     # Set locale to parse the date, but dates are currently not localized anyways (Thanks Valve)
     locale.setlocale(locale.LC_TIME, f'en_US.UTF-8') # Switch to language_locale after it's fixed (if ever)
-    date_format = '%B %d, %Y' # English
-    
-    #locale.setlocale(locale.LC_TIME, 'de_DE') # German
-    #date_format = '%d. %B %Y' # German
+    date_format = '%d %B %Y' # English
 
     # For each update capsule, find all div containers with relevant information
     for capsule in capsule_divs:
-        title = capsule.select_one('div[class*="updatecapsule_Title"]').text.strip()
-        date = datetime.strptime(capsule.select_one('div[class*="updatecapsule_Date"]').text.strip(), date_format)
-        desc = capsule.select_one('div[class*="updatecapsule_Desc"]').decode_contents().strip()
+        children = capsule.find_all('div', recursive=False)
+        date = datetime.strptime(children[0].text.strip(), date_format)
+        title = children[1].text.strip()
+        desc = children[2].decode_contents().strip()
 
         # Remove trailing <br/> tags at the beginning of the update description (Thanks Valve)
         while desc.startswith('<br'):

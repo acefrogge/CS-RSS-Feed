@@ -40,7 +40,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
         # Wait for the contents to appear (thanks Valve for using reactJS)
         element = WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="blogoverviewpage_SubEntries"]'))
+            EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="_3hyKAfTPsSQAD3OC_dbWCb"]'))
         )
 
         # Extract the (hopefully) complete HTML
@@ -57,16 +57,14 @@ for language_name, (language_code, language_locale) in language_map.items():
     soup = BeautifulSoup(html_content, 'html.parser')
 
     # Find all containers with class names that contain "blogcapsule_BlogCapsule"
-    capsules = soup.select('a[class*="blogcapsule_BlogCapsule"]')
+    capsules = soup.select('a[class*="_3OBoG7TZb8gxM8NbILzAan"]')
 
     # Create an array of all news entries
     news_items = []
 
     # Set locale to parse the date, but dates are currently not localized anyways (Thanks Valve)
     locale.setlocale(locale.LC_TIME, f'en_US.UTF-8') # Switch to language_locale after it's fixed (if ever)
-    date_format = '%B %d, %Y' # English
-    #locale.setlocale(locale.LC_TIME, 'de_DE') # German
-    #date_format = '%d. %B %Y' # German
+    date_format = '%d %B %Y' # English
 
     # For each news capsule, open the entry and find all div containers with relevant information
     for capsule in capsules:
@@ -80,7 +78,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
             # Wait for the contents to appear
             element = WebDriverWait(driver, 15).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="blogentrypage_BlogEntryPage"]'))
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="_3PVZqELwggVvMhoK3lRGwk"]'))
             )
 
             # Extract the (hopefully) complete HTML
@@ -94,11 +92,11 @@ for language_name, (language_code, language_locale) in language_map.items():
 
         # Parse the HTML content with BeautifulSoup and extract all relevant information
         news_soup = BeautifulSoup(news_html_content, 'html.parser')
-        news_page = news_soup.select_one('div[class*="blogentrypage_BlogEntryPage"]')
+        news_page = news_soup.select_one('div[class*="_3PVZqELwggVvMhoK3lRGwk"]')
 
-        title = news_page.select_one('div[class*="blogentrypage_Title_"]').text.strip()
-        date = datetime.strptime(news_page.select_one('div[class*="blogentrypage_Date"]').text.strip(), date_format)
-        body = news_page.select_one('div[class*="blogentrypage_Body"]').decode_contents().strip()
+        title = news_page.select_one('div[class*="_2HW6u-IlsL50KUqJyif8Ls"]').text.strip()
+        date = datetime.strptime(news_page.select_one('div[class*="_2JNhX05chbmg2pDcad3NuT"]').text.strip(), date_format)
+        body = news_page.select_one('div[class*="_30GVvAUcc-I1luXxmzjBYK"]').decode_contents().strip()
 
         # Remove trailing <br/> tags at the beginning of the news article
         while body.startswith('<br'):

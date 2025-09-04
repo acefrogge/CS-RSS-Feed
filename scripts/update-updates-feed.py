@@ -41,7 +41,7 @@ for language_name, (language_code, language_locale) in language_map.items():
 
         # Wait for the contents to appear (thanks Valve for using reactJS)
         element = WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'div[class^="-EouvmnKRMabN5fJonx-O"]'))
+            EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div/div[3]/div[2]/div[1]/div[1]'))
         )
 
         # Extract the (hopefully) complete HTML
@@ -56,8 +56,15 @@ for language_name, (language_code, language_locale) in language_map.items():
     # Parse the HTML content with BeautifulSoup and extract all relevant information
     soup = BeautifulSoup(html_content, 'html.parser')
 
-    # Find all div containers with class names that contain "updatecapsule_UpdateCapsule"
-    capsule_divs = soup.select('div[class^="-EouvmnKRMabN5fJonx-O"]')
+    # Find all div containers that correspond to update capsules using XPath
+    capsule_divs = []
+    for i in range(1, 16):
+        try:
+            capsule = driver.find_element(By.XPATH, f'/html/body/div[2]/div/div/div[3]/div[2]/div[1]/div[{i}]')
+            capsule_divs.append(capsule)
+        except:
+            break 
+
 
     # Create an array of all update items
     updates = []
@@ -65,15 +72,16 @@ for language_name, (language_code, language_locale) in language_map.items():
     # Set locale to parse the date, but dates are currently not localized anyways (Thanks Valve)
     locale.setlocale(locale.LC_TIME, f'en_US.UTF-8') # Switch to language_locale after it's fixed (if ever)
     date_format = '%B %d, %Y' # English
+    
     #locale.setlocale(locale.LC_TIME, 'de_DE') # German
     #date_format = '%d. %B %Y' # German
 
     # For each update capsule, find all div containers with relevant information
     for capsule in capsule_divs:
-        children = capsule.find_all('div', recursive=False)
-        date = datetime.strptime(children[0].text.strip(), date_format)
-        title = children[1].text.strip()
-        desc = children[2].decode_contents().strip()
+        date_text = capsule.find_element(By.XPATH, './div[1]').text.strip()
+        date = datetime.strptime(date_text, date_format)
+        title = capsule.find_element(By.XPATH, './div[2]').text.strip()
+        desc = capsule.find_element(By.XPATH, './div[3]').get_attribute('innerHTML').strip()
 
         # Remove trailing <br/> tags at the beginning of the update description (Thanks Valve)
         while desc.startswith('<br'):

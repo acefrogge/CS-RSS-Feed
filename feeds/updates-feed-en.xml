@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Sep 2025 21:45:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 21:52:28 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">\[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed an issue that would allow exec_async to continue executing in cheat protected servers resulting in random user input dropout.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Last chance to pick up the Gallery Case, Graphic Collection, and Character Craft stickers from The Armory.<br></p></li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">f31ad3e516edd620c090cdac2fe36bba6797eb37d456419eb0db080b56a7e48c</guid>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -20,7 +28,7 @@
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">\[ AUDIO ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed an issue that caused sound dropouts while playing Agency.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK"><br><br></p>]]></description>
+      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">\[ AUDIO ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed an issue that caused sound dropouts while playing Agency.<br></p></li></ul>]]></description>
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">a44b14197c2a0a3b43e0e267ad154f8c6cd8bff001c63c6a3f3292b39b82018c</guid>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">5a5c0c5d9763e17ab5d00c3f8c195af829d7d25ccbc357a39617310ae5780aee</guid>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[[ GAMEPLAY ]<br><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"> Rendered viewangle adjustments due to recoil are now calculated per frame.<br></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">8eaa61442d5f5e1d7b986552ebd201f109ca1c525503cbeb0c1fa779e20da014</guid>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Sep 2025 23:13:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 23:25:36 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">[ GENESIS COLLECTION ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Customers in Belgium, Netherlands, and France can now unseal their Sealed Genesis Terminal items.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed purchasing errors for users with Steam Wallet funds in Chilean Peso, Colombian Peso, Costa Rican Colón, Indonesian Rupiah, Indian Rupee, Japanese Yen, South Korean Won, Kazakhstani Tenge, New Taiwan Dollar, Ukrainian Hryvnia, Uruguayan Peso, and Vietnamese Dong.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ ITEMS ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed position of the nametag and StatTrak module on Shadow Daggers.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ MAP SCRIPTING ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Added javascript to the list of asset types.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed type declaration for the newAngles parameter of Entity.Teleport.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a bug where GetTraceHit would crash when the config parameter was not specified.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Improved timestep-independence of subtick movement acceleration.<br></p></li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">3a73c20ffc2d4c2c5d607bcfa61f3025cacadec614e7fe135eda114c1e136895</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">b5533f4926976dc9d4b3a2cc870a194e9169c930f8ffb866ac16dab65b4d0d13</guid>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[[ MISC ]<br><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy">Added a description note to Souvenir Highlight Packages explaining that they will become tradable and marketable after 7 days.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy">Various stability improvements.<br></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">49ba4fb23c330720b3f7a8afd33c33278ef94555e5da3c53938db3411356cf72</guid>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

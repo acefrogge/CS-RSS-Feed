@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Oct 2025 23:17:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 23:27:15 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">[ MAPS ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Updated Palacio to the latest Community Workshop version. (<a href="https://steamcommunity.com/sharedfiles/filedetails/changelog/3249860053?snr=___" class="Focusable">Update Notes</a>)<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Removed Transit from official matchmaking.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK"><br></p><p class="_23SXWVQfREeO5DYXHTgcWK">[ MAP SCRIPTING ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed Instance.OnPlayerPing not sending position.<br></p></li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">5d42206b87898543cd0a026c81d8eeb370be875f984db184e73cd8a21da68a9e</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">728615f745ff412ac2b7a3a6475da3ab43c512ed759bf07eeab024799530dd7b</guid>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[[ MAPS ]<br><br>Ancient<br><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"> Reverted "house" roof decorations near CT spawn.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Restored the ability to wallbang the plywood in "cave".<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Various changes to the daytime soundscape.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Fixed items getting stuck behind the rubble pile on T side of B.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Player clipping adjustments.<br></li></ul><br>Shoots<br><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"> Player clipping adjustments.<br></li></ul><br>Ancient and Shoots<br><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy">More Ancient and Shoots source content is now available for community map makers in maps/editor/zoo/ancient_zoo.vmap.<br></li></ul><br>[ MISC ]<br><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"> Fixed knife slashes applying a 'dry' attack decal on wet surfaces.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Fixed a case where clients would mispredict shots if the attack button was held across round respawn.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Fixed a case where the viewmodel would stick to the camera when cl_lock_camera was set.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Fixed a case where fullscreen windowed mode wasn't offering resolutions with extreme aspect ratios.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Fixed a case where fullscreen windowed mode wasn't actually stretching to fill the screen.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Fixed a case where relative mouse motion was incorrect on Linux.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy"> Various stability improvements.<br></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">96b04029a340385feb7fc2ece80f09f6b28832b3a263eb358e142ff10de6de40</guid>
-      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

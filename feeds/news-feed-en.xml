@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Oct 2025 22:39:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 23:16:40 +0000</lastBuildDate>
+    <item>
+      <title>Re-Retakes</title>
+      <link>https://www.counter-strike.net/newsentry/516350567072661952?l=english</link>
+      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK"><br></p><p class="_23SXWVQfREeO5DYXHTgcWK"><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="><br></p><p class="_23SXWVQfREeO5DYXHTgcWK">The bomb has been planted and you're running out of time. It's the return of retakes! <br></p><p class="_23SXWVQfREeO5DYXHTgcWK">In this classic game mode, each round drops you in to a fast-paced 4v3 after-plant scenario. Select your loadout card each round, check the map to coordinate with your teammates, and use your resources wisely to defuse (or defend) the planted bomb.<br></p><p class="_23SXWVQfREeO5DYXHTgcWK">The clock is ticking, what are you waiting for? Jump into a retakes server now!<br></p>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">516350567072661952</guid>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Community Maps, Charms, and More</title>
       <link>https://www.counter-strike.net/newsentry/498333631688738072?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">529833471389991079</guid>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Crowning a Champion in Shanghai</title>
-      <link>https://www.counter-strike.net/newsentry/707725115500004414?l=english</link>
-      <description><![CDATA[<img src="https://clan.cloudflare.steamstatic.com/images/3381077/367dbffc57e14f6f9beda4743c8d6a4c349309de.png"><br>After an exciting Playoff Stage, FaZe Clan and Team Spirit are the last two standing and will meet in the Grand Finals of the Perfect World Shanghai Major.<br><br>On one side of the Playoff bracket, FaZe Clan defeated Team Vitality 2-1 and G2 Esports 2-0 to reach the Grand Finals for the second consecutive Major. <br><br>On the other side, Team Spirit overwhelmed Team Liquid 2-0, then outlasted MOUZ 2-1 on their way to the organization's first Major Grand Finals appearance.<br><br>The Grand Finals begin on December 15th at 01:00 PST and the Showmatch takes place two hours prior. Don't miss a moment!<br><br>And don't forget, team and player stickers are still available, with 50% of the proceeds going to the players, teams, and organizations participating in the Perfect World Shanghai Major.<br><br>Best of luck to both teams!]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">707725115500004414</guid>
-      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

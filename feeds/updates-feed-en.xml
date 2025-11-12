@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Nov 2025 22:54:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 23:10:35 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">[ MAJOR ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">The StarLadder Budapest Major Hub is now available. Visit the hub to purchase tournament items, play the Pick'Em Challenge and more.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Purchase a Budapest 2025 Viewer Pass to receive an upgradable Budapest 2025 Coin. With an active pass, you can upgrade your coin and earn extra souvenir packages by playing the Pick'Em Challenge. Additionally, you will show up on the Active Pass Leaderboard where you can compare your Pick'Em Challenge performance to your friends.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ STORE ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Added new "Sticker Slab" item, a charm that seals any sticker and can be attached to weapons. The sealed sticker can be returned to your inventory at any time by cracking open and discarding the slab.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Newly purchased Name Tag and StatTrak™ Swap Tool items can no longer be traded or listed on Community Market.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ GAMEPLAY ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Increased the maximum effective sv_maxvelocity to 16,384 units per second. The default value of 3500 is unchanged.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a case where clients would mispredict jump button presses.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a case where clients would mispredict jump apexes.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ MAPS ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed skybox on Inferno that was blocking grenades.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Increased default bullet decal rendering distance.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Glove models and animations in the UI/inventory now use Animgraph2, matching first-person in-game gloves.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Enabled the pulsing light on the C4 view model.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Updated the color scheme of Counter-Strike items in Steam Community Market and Web Inventory to match item quality colors.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Performance improvements.<br></p></li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">7e69d3405ed7d153237ca96445e633c5706192553bf59d7b187b3323335c158d</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">e5af1bffd51b4f528ed8b01eedf904ec2fad4afc23313f190b2ed4d91d06fea2</guid>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">[ GENESIS COLLECTION ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Customers in Belgium, Netherlands, and France can now unseal their Sealed Genesis Terminal items.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed purchasing errors for users with Steam Wallet funds in Chilean Peso, Colombian Peso, Costa Rican Colón, Indonesian Rupiah, Indian Rupee, Japanese Yen, South Korean Won, Kazakhstani Tenge, New Taiwan Dollar, Ukrainian Hryvnia, Uruguayan Peso, and Vietnamese Dong.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ ITEMS ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed position of the nametag and StatTrak module on Shadow Daggers.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ MAP SCRIPTING ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Added javascript to the list of asset types.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed type declaration for the newAngles parameter of Entity.Teleport.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a bug where GetTraceHit would crash when the config parameter was not specified.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Improved timestep-independence of subtick movement acceleration.<br></p></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">3a73c20ffc2d4c2c5d607bcfa61f3025cacadec614e7fe135eda114c1e136895</guid>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

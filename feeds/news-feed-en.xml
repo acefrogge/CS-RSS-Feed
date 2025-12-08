@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Dec 2025 01:28:01 +0000</lastBuildDate>
-    <item>
-      <title>CS2 Workshop Update</title>
-      <link>https://www.counter-strike.net/newsentry/500591777095353663?l=english</link>
-      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">Today we are introducing optional Supplemental Terms for releasing Counter-Strike 2 items in-game, found <a href="https://steamcommunity.com/workshop/workshoplegalagreement/?appid=730&amp;snr=___" class="Focusable">here</a>, which allows the Counter-Strike 2 team to license items for a flat fee, found below:<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Weapon finish: $35,000.00 USD<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Sticker: $6,000.00 USD<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Charm: $6,000.00 USD<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">If a Steam account agrees to these new Supplemental Terms, all of the account's Workshop items can now be distributed where Community items were previously not available, such as The Armory. <br></p><p class="_23SXWVQfREeO5DYXHTgcWK"><br></p><h3 class="_3TbsqSojZISxIQAjLdNVPr BB_Header3">A Call to Arms-ory</h3><p class="_23SXWVQfREeO5DYXHTgcWK">As part of a future update, we are looking for weapon finishes inspired by two themes:<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Arabesque Art and Arabian Mythology<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Spy/Tech<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">We are also looking for stickers inspired by two different themes:<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Auto Racing<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fruits and Vegetables<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK">To submit weapon finishes and/or stickers to the Call to Arms, select the appropriate option using the updated Counter-Strike 2 Workshop Tool:<br></p><p class="_23SXWVQfREeO5DYXHTgcWK"><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="><br></p><p class="_23SXWVQfREeO5DYXHTgcWK"><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="><br></p><p class="_23SXWVQfREeO5DYXHTgcWK">If you already have Steam Workshop submissions you believe fit into these themes, you will need to re-submit the items and tag them using the options above.<br></p><p class="_23SXWVQfREeO5DYXHTgcWK">Finally, today we're releasing the Dr. Boom charm model, which can be painted and submitted for a future community charm collection. And we're adding a new Paint Kit type, Custom Paint Job Extended, which includes options for iridescence and other features.<br></p><p class="_23SXWVQfREeO5DYXHTgcWK">We're excited to see what you come up with!<br></p>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">500591777095353663</guid>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 08 Dec 2025 22:45:40 +0000</lastBuildDate>
     <item>
       <title>The Starladder Budapest Major 2025</title>
       <link>https://www.counter-strike.net/newsentry/578276333072682038?l=english</link>
@@ -128,6 +120,14 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">529842339955343453</guid>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Season's Greetings</title>
+      <link>https://www.counter-strike.net/newsentry/520830071182721028?l=english</link>
+      <description><![CDATA[Welcome to Premier Season Two. <br><br>If you haven't heard the news, here's what's new in Season Two. Vertigo is out, Train is in, the M4A4 is more... A4-dable... and we've tweaked the FAMAS. <br><br>Season Two runs from now through the Austin Major, at which point players who meet the requirements will be awarded a Premier Season Two Medal. The color will correspond to your highest CS Rating achieved during the season, and the bars will reflect your total wins, with one bar for every 25—up to five bars.<br><br>To earn your Premier Season Two Medal, you'll need an account in good standing, 25 Premier match wins, and an active CSR at the end of the season.<br><br>Premier matchmaking is now open for business, so hit the queue and start racking up those wins!]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">520830071182721028</guid>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

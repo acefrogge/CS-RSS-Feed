@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Dec 2025 22:45:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 20:37:05 +0000</lastBuildDate>
+    <item>
+      <title>The StarLadder Budapest Major Playoffs</title>
+      <link>https://www.counter-strike.net/newsentry/542250707897549188?l=english</link>
+      <description><![CDATA[<img src="https://clan.cloudflare.steamstatic.com/images//3381077/f7e0b05e3af4f8be1315023957563f3ee4519d6a.png"><br>Only 8 teams remain in the StarLadder Budapest Major, which means the Playoffs are upon us.<br><br>FURIA and Team Spirit finished Stage III with perfect 3-0 records. MOUZ, The MongolZ, and Vitality advanced at 3-1, and Falcons, FaZe Clan, and Natus Vincere survived with 3-2 records.<br><br>Playoffs begin tomorrow, December 11th from the 20,000 seat MVM Dome with the following Quarterfinals matchups:<br><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Team Spirit vs. Falcons<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Vitality vs. The MongolZ<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">MOUZ vs. FaZe Clan<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">FURIA vs. Natus Vincere<br></p></li></ul>As the Playoffs get underway, there's still time to support your favorite teams. Team and player stickers are available, with 50% of the proceeds going to the players, teams, and organizations participating in the StarLadder Budapest Major.<br><br>And don't forget, there's still time to submit picks for the Pick'Em Challenge. All Playoff picks must be submitted prior to the start of the first Playoff match.<br><br>Good luck to the 8 remaining teams!]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">542250707897549188</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The Starladder Budapest Major 2025</title>
       <link>https://www.counter-strike.net/newsentry/578276333072682038?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">529842339955343453</guid>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Season's Greetings</title>
-      <link>https://www.counter-strike.net/newsentry/520830071182721028?l=english</link>
-      <description><![CDATA[Welcome to Premier Season Two. <br><br>If you haven't heard the news, here's what's new in Season Two. Vertigo is out, Train is in, the M4A4 is more... A4-dable... and we've tweaked the FAMAS. <br><br>Season Two runs from now through the Austin Major, at which point players who meet the requirements will be awarded a Premier Season Two Medal. The color will correspond to your highest CS Rating achieved during the season, and the bars will reflect your total wins, with one bar for every 25—up to five bars.<br><br>To earn your Premier Season Two Medal, you'll need an account in good standing, 25 Premier match wins, and an active CSR at the end of the season.<br><br>Premier matchmaking is now open for business, so hit the queue and start racking up those wins!]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">520830071182721028</guid>
-      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

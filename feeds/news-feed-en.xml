@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 11:50:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 23:18:28 +0000</lastBuildDate>
+    <item>
+      <title>The Dead Hand</title>
+      <link>https://www.counter-strike.net/newsentry/518615049848225858?l=english</link>
+      <description><![CDATA[Today we're introducing the Dead Hand Collection, featuring 17 finishes from community contributors and 22 all-new gloves as rare special items. <br><br><div style="min-height: 1px; min-width: 1px;"></div><br><br><h3 class="_3TbsqSojZISxIQAjLdNVPr BB_Header3">Mutually Assured Distraction</h3>The Dead Hand collection features 22 all-new gloves guaranteed to add style to your highlight reel.<br><br><div style="min-height: 1px; min-width: 1px;"></div><br><br>Dying to get your hands in these mitts? You can purchase Dead Hand Collection items from Dead Hand Terminals, which are available now as a possible weekly drop.]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">518615049848225858</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The Fourth Season</title>
       <link>https://www.counter-strike.net/newsentry/511855214544814488?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">529849950216913271</guid>
       <pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Playoffs in Austin</title>
-      <link>https://www.counter-strike.net/newsentry/508457312081417562?l=english</link>
-      <description><![CDATA[<img src="https://clan.cloudflare.steamstatic.com/images//3381077/8c224437991990bcb0a8d22f7215be00bc587fa6.png">After three Stages of the BLAST.tv Austin Major, eight teams have survived and advanced to the Playoffs. The Moody Center will host sold out crowds for four days to determine 2025’s first Major Champions.<br><br>Stage 3 saw fierce competition, with surprising upsets, come-from-behind victories and too many overtimes to count. There are stories abound in Austin, and every team has forged their own path to this moment. Who will come out on top?<br><br>Find out on Thursday, June 19th when the Playoff Stage kicks off between Team Spirit and MOUZ, and don’t forget to make picks for all Playoff Stage matches prior to the start of the first match!<br><br>As we reach the Major’s final stage, there's still time to support your favorite teams. Team and player stickers are available, with 50% of the proceeds going to the players, teams, and organizations participating in the BLAST.tv Austin Major.<br><br>See you in Austin!]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">508457312081417562</guid>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

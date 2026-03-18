@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Mar 2026 22:18:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 22:49:32 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[[ GAMEPLAY ]<ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy">Reloading has been refactored to encourage more careful consideration of the use of ammo. When you reload a magazine-fed weapon, all remaining ammo in the magazine is discarded and a new, full magazine is taken from the reserves.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy">Reserve ammunition is now represented either as number of magazines, shells, or bullets, depending on the weapon.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy">The fill-level of the current weapon is now displayed below the ammo count. <br></li><li class="_3hRXlwV68b7y5e5EjN2HQy">Tuned reserve magazine counts per-weapon.</li></ul><br>[ MAP GUIDES ]<ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy">Limited map guides are now available in Competitive and Retakes (first 5 rounds of the half, 30 node max).<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy">sv_allow_annotations_access_level supports 3 values: 0 – disabled. 1 – limited view. 2 – full and editable. <br></li><li class="_3hRXlwV68b7y5e5EjN2HQy">sv_annotation_limits_max_rounds_per_half (default 5) determines how many rounds into the half guides are allowed. -1 for unlimited.<br></li><li class="_3hRXlwV68b7y5e5EjN2HQy">Minimal starter map guides have been added for all Active Duty maps.</li></ul><br>[ WORKSHOP MAPS ]<br><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy">Friends playing a Practice or Workshop map can be joined through the friends menu if they have Open Party set.</li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">e705542d85ec5e18d5c7d2110987453773b5fbbbd3e5a438edcb052574df14cd</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">53d80de8be28cfca6992542b4b993ab9dfdac8ba868b78d277e8340ffc3cadfb</guid>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed ability to plant C4 while standing on top of a teammate.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a rendering bug on transparent charms attached to planted C4 or dropped weapons.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a bug where Budapest 2025 Coin sometimes wasn't showing up in the scoreboard.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a replay bug causing infinite shell casing effects.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Updated the Budapest 2025 Imperial Esports sticker artwork.<br></p></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">e5113bd091c9bd4580419284289d14c474174dc1a3b76eba6ab2e9dbd29f276a</guid>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

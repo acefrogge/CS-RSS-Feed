@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2026 22:41:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 23:26:24 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">All changes from the animgraph_2_beta build are now live.<br></p><p class="_23SXWVQfREeO5DYXHTgcWK"><br></p><p class="_23SXWVQfREeO5DYXHTgcWK">[ ANIMGRAPH 2 ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Minor adjustments to viewmodel animations.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Adjusted general weapon deploy animation logic.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed issues with transitioning between knife attacks.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed Elites not shooting in third-person.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK"><br>[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a bug that allowed silently climbing ladders at run speed by sporadically tapping movement keys.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Adjusted ground smoothing at locations where sloped ground surfaces transition to flat ground.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed held grenades inheriting incorrect scale in some circumstances such as after being dropped and picked up.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a crash at halftime when transitioning from CT to T.<br></p></li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">5e71e5ea59c6efc4238051594796c562a666f6b73c11c94c6c63f60596e613d2</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">4fb9139dfa2f478cdb536e11ad5e5cb7c5745e1afaf0fb9cffdb666f878c5a35</guid>
       <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">[ GAMEPLAY ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Landing vertical velocity now affects landing speed penalties similar to sv_legacy_jump stamina.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK"><br></p><p class="_23SXWVQfREeO5DYXHTgcWK">[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed an issue that led to a small number of users to erroneously receive a VAC ban. Those bans have been reversed.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a case where HUD safezone settings were not being applied.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Various server stability improvements.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK"><br></p><p class="_23SXWVQfREeO5DYXHTgcWK">[ MAPS ]<br></p><p class="_23SXWVQfREeO5DYXHTgcWK">Anubis<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a case where physics objects would interact with multiple overlapping convex water volumes.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Various player clipping adjustments.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Radar minimap updated to match recent changes.<br></p></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">5946488c0fd42b10e77d98a0a51fb7f51e1c86067c8417ead463a4563515bb4a</guid>
-      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

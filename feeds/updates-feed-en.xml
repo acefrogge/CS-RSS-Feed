@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 22:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 22:47:59 +0000</lastBuildDate>
+    <item>
+      <title>Counter-Strike 2 Update</title>
+      <link>https://www.counter-strike.net/news/updates?l=english</link>
+      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">[ ANIMGRAPH 2 ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed XM1014 shells flickering when starting a reload.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed bugs with dual berettas in first person and in spectator mode.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed inspect/cancel causing multiple worldmodel deploys.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a bug where players can get stuck in a planted-turn state.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Made foot IK transitions smoother.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Adjusted the firstperson in-air crouch transition time to match the thirdperson animation better.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a case where high frequency stutter steps would cause large pose changes.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed a case where legs would snap when quickly stopping and then continuing in same direction.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Adjusted thirdperson bomb plant animation to more closely match firstperson animation.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Minor adjustments to viewmodel animations.<br></p></li></ul><p class="_23SXWVQfREeO5DYXHTgcWK"><br></p><p class="_23SXWVQfREeO5DYXHTgcWK">[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Fixed random crash on startup when a non-default Audio Device was specified in settings or when sound_device_override was specified in a config file or on the command line.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Adjusted official map guides to match new surface smoothing.<br></p></li><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Dropped weapons with silencers now correctly reflect the silenced state.<br></p></li></ul>]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">092faaf9118169b1f5c4960ea531e03d33a032ffd743f5b5b8b9d80e779d07b7</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Counter-Strike 2 Update</title>
       <link>https://www.counter-strike.net/news/updates?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">e6c9165bcda127faf4674d21ff515f2d3c99392dba59d4d2ba089447ab3e74ea</guid>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Strike 2 Update</title>
-      <link>https://www.counter-strike.net/news/updates?l=english</link>
-      <description><![CDATA[<p class="_23SXWVQfREeO5DYXHTgcWK">[ MISC ]<br></p><ul class="cSK6EVcVDQVi2-u8iuoJJ bullets"><li class="_3hRXlwV68b7y5e5EjN2HQy"><p class="_23SXWVQfREeO5DYXHTgcWK">Localization code and text changes.<br></p></li></ul>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">90f327e3bd06f62e5d5b1e473702e5530d320e770463de982ecdd7e05420b92b</guid>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

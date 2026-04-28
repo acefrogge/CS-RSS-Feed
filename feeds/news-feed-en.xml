@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 23:22:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 23:07:47 +0000</lastBuildDate>
+    <item>
+      <title>The Return Of Cache</title>
+      <link>https://www.counter-strike.net/newsentry/508486359454843045?l=english</link>
+      <description><![CDATA[<video width="100%" height="auto" autoplay="" playsinline="" poster="https://clan.fastly.steamstatic.com/images/3381077/fb8e14e605a2594a80077e059692601acefafaae.png?origin=" loop=""><source src="https://clan.fastly.steamstatic.com/images/3381077/2a3251dedbc1d4ffcac5e644280893c52f053b5a.mp4?origin=" type="video/mp4"><source src="https://clan.fastly.steamstatic.com/images/3381077/c2e89d3e3ea290a9a7ac0f4ff472b3c51b81dec5.webm?origin=" type="video/webm"></video><br><br>Today's update features the return of a classic. Welcome back, Cache!<br><br>Cache veterans will feel right at home in familiar locations, while new players can quickly learn the ins and outs of a classic three lane map that rewards strategy and teamplay.<br><br>You can find Cache in Casual and Competitive modes (for now). <br><br>Don't forget to clear Forklift, and we'll see you on the server.]]></description>
+      <author>support@steampowered.com (Valve Corporation)</author>
+      <guid isPermaLink="false">508486359454843045</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Animgraph 2 Beta</title>
       <link>https://www.counter-strike.net/newsentry/528750051218948816?l=english</link>
@@ -120,14 +128,6 @@
       <author>support@steampowered.com (Valve Corporation)</author>
       <guid isPermaLink="false">657081807721726187</guid>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Season Two: Episode One</title>
-      <link>https://www.counter-strike.net/newsentry/529852487375519751?l=english</link>
-      <description><![CDATA[<img src="https://clan.akamai.steamstatic.com/images//3381077/f780ca0f8f1f5561b4f72030672ed657382ecd9a.png"><br>Premier Season Three begins today!<br><br>It's time to start working toward your Season Three Medal. As before, the color of your medal will correspond to the highest CS Rating achieved during the season, and the bars will reflect your total wins, with one bar for every 25 (up to five bars). To be eligible for a medal, you'll need an account in good standing, 25 Premier match wins, and an active CSR at the end of the season.<br><br><h3 class="_3TbsqSojZISxIQAjLdNVPr BB_Header3">New for Season 3 </h3>With the new season comes an update to the Active Duty Map Pool: Overpass is back in, and Anubis is out.<br><br>There are a few gameplay changes with Season Three. Fire from the incendiary grenade now spreads faster, occupying space rapidly to counter rushing Ts. The MP9 has gotten a bit of a nerf, with a harder to control spray and substantially less jumping accuracy. There's also a change to the CT economy: win or lose, CTs now receive a shared team award for each T eliminated in the round, so the more you win and the closer you keep your losses, the more you'll have to spend.<br><br><h3 class="_3TbsqSojZISxIQAjLdNVPr BB_Header3">Trade Protected Items</h3>Today we are introducing a new feature to help keep your Counter-Strike items secure. In the unlikely event that you lose control of your account or were the target of a scam by a bad actor, you may reverse all Counter-Strike item trades from the last 7 days. <br><br>Obviously we hope you'll never need it, but you can review your recent trades and find the trade reversal feature on the Trade History page on your Steam Account. For more information about what happens when trades are reversed, visit the <a href="https://help.steampowered.com/en/faqs/view/365F-4BEE-2AE2-7BDD" class="Focusable">FAQ</a>]]></description>
-      <author>support@steampowered.com (Valve Corporation)</author>
-      <guid isPermaLink="false">529852487375519751</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
